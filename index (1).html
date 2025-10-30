@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>MD MAHABUB HASAN MAHIN — Portfolio</title>
+  <meta name="description" content="CSE undergraduate passionate about AI, software engineering, and impactful problem‑solving." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    :root{--maxw:1100px;--accent:#0b6efd;--bg:#0b0d15;--panel:#0f1321;--text:#eef2ff;--muted:#98a2b3;--card:#0f172a}
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial}
+    body{background:linear-gradient(180deg,#0b0d15 0,#0b0d15 60%,#0d1226 100%);color:var(--text);}
+    a{color:#b7c7ff}
+    .wrap{max-width:var(--maxw);margin:0 auto;padding:24px}
+    .nav{display:flex;justify-content:space-between;align-items:center;gap:16px}
+    .brand{font-weight:800;letter-spacing:.2px}
+    .nav-links a{margin-left:16px;text-decoration:none;color:var(--muted)}
+    .hero{display:grid;grid-template-columns:1fr;gap:24px;align-items:center;padding:40px 0}
+    .hero .avatar{width:120px;height:120px;border-radius:999px;object-fit:cover;border:3px solid rgba(255,255,255,.08);box-shadow:0 8px 30px rgba(0,0,0,.35)}
+    .hero h1{font-size:36px;margin:8px 0 8px}
+    .tagline{color:var(--muted);margin:0 0 8px}
+    .cta{display:inline-block;background:var(--accent);color:white;padding:10px 16px;border-radius:12px;text-decoration:none;font-weight:600}
+    .cards{display:grid;grid-template-columns:1fr;gap:16px}
+    .card{background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.08);padding:20px;border-radius:16px;box-shadow:0 6px 30px rgba(0,0,0,.25)}
+    h2{font-size:22px;margin:0 0 12px}
+    ul{margin:0;padding-left:18px}
+    .skills{display:flex;flex-wrap:wrap;gap:8px;padding:0;list-style:none}
+    .pill{background:#1f2b59;border:1px solid rgba(255,255,255,0.08);padding:6px 10px;border-radius:999px;font-size:14px;color:#dce3ff}
+    .grid{display:grid;grid-template-columns:1fr;gap:12px}
+    .project{background:#0e162f;border:1px solid rgba(255,255,255,0.08);padding:14px;border-radius:12px}
+    .project h3{margin:0 0 6px;font-size:18px}
+    .project p{margin:0 0 6px;color:var(--muted)}
+    .project a{font-weight:600}
+    .contact label{display:block;margin:10px 0 6px;color:#cbd5e1}
+    .contact input,.contact textarea{width:100%;padding:10px;border-radius:10px;border:1px solid rgba(255,255,255,0.12);background:#0b1231;color:var(--text)}
+    .contact button{margin-top:10px}
+    footer{color:var(--muted);text-align:center;padding:24px}
+    .two-col{display:grid;grid-template-columns:1fr;gap:16px}
+    @media(min-width:900px){.hero{grid-template-columns:140px 1fr}.cards{grid-template-columns:repeat(12,1fr)} .card.span-4{grid-column:span 4} .card.span-8{grid-column:span 8} .two-col{grid-template-columns:1fr 1fr}}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <nav class="nav">
+      <div class="brand">MD MAHABUB HASAN MAHIN</div>
+      <div class="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <img src="avatar.jpg" alt="MD MAHABUB HASAN MAHIN portrait" class="avatar">
+      <div>
+        <h1>Hi — I'm MD MAHABUB HASAN MAHIN</h1>
+        <p class="tagline">CSE undergraduate passionate about AI, software engineering, and impactful problem‑solving.</p>
+        <a class="cta" href="#contact">Hire me</a>
+      </div>
+    </section>
+
+    <section id="about" class="card">
+      <h2>Profile Summary</h2>
+      <p>A Computer Science undergraduate at Green University of Bangladesh with a strong passion for building innovative solutions and exploring Artificial Intelligence. Skilled in software development, problem‑solving, and entrepreneurial thinking, with a focus on impactful projects. Enthusiastic about leveraging technology to tackle challenges and continuously learning new concepts in AI and software engineering.</p>
+      <div class="two-col" style="margin-top:8px">
+        <div><strong>Location:</strong> Purbachal American City, Kanchon 1460</div>
+        <div><strong>Phone:</strong> <a href="tel:+8801722294727">+8801722294727</a></div>
+        <div><strong>Email:</strong> <a href="mailto:mdmahabubhasanmahin31@gmail.com">mdmahabubhasanmahin31@gmail.com</a></div>
+        <div><strong>Links:</strong> <a href="https://github.com/Mahabub231" target="_blank" rel="noreferrer">GitHub</a> · <a href="https://www.linkedin.com/in/md-mahabub-hasan-mahin-54908229a" target="_blank" rel="noreferrer">LinkedIn</a></div>
+      </div>
+    </section>
+
+    <section id="skills" class="cards">
+      <article class="card span-4">
+        <h2>Programming</h2>
+        <ul><li>C</li><li>C++</li><li>Java</li></ul>
+      </article>
+      <article class="card span-4">
+        <h2>Web</h2>
+        <ul><li>HTML</li><li>CSS</li><li>JavaScript</li><li>PHP</li></ul>
+      </article>
+      <article class="card span-4">
+        <h2>Tools</h2>
+        <ul><li>VS Code</li><li>IntelliJ IDEA</li><li>Adobe Photoshop</li><li>Adobe Illustrator</li><li>Canva</li><li>MS Word</li><li>MS Excel</li><li>PowerPoint</li></ul>
+      </article>
+      <article class="card span-8">
+        <h2>Soft Skills</h2>
+        <ul class="skills"><li class='pill'>Problem‑Solving</li><li class='pill'>Team Collaboration</li><li class='pill'>Critical Thinking</li><li class='pill'>Time Management</li></ul>
+      </article>
+      <article class="card span-4">
+        <h2>Languages</h2>
+        <ul><li>Bengali — Native</li><li>English — Conversational</li></ul>
+      </article>
+    </section>
+
+    <section id="education" class="card">
+      <h2>Education</h2>
+      <div class='project'><strong>Green University of Bangladesh</strong> <span style='color:var(--muted)'>(2023 — Present)</span><br>Bachelor of Science in Computer Science & Engineering (B.Sc. in CSE)</div><div class='project'><strong>Keranirhat High School & College, Rangpur</strong> <span style='color:var(--muted)'>(2019 — 2021)</span><br>Higher Secondary Certificate (HSC)</div><div class='project'><strong>Keranirhat High School & College, Rangpur</strong> <span style='color:var(--muted)'>(2018 — 2019)</span><br>Secondary School Certificate (SSC)</div>
+    </section>
+
+    <section id="experience" class="card">
+      <h2>Work Experience</h2>
+      <div class='project'><strong>Plant Operator</strong> — HP Chemicals Ltd <span style='color:var(--muted)'>(23 Jun 2022 — 30 Mar 2023)</span><br><span style='color:var(--muted)'>Duptara, Araihazar, Narayanganj</span><ul><li>Operated and monitored plant equipment and processes.</li><li>Maintained safety and operational standards.</li><li>Collaborated with team members to meet production goals.</li></ul></div>
+    </section>
+
+    <section id="projects" class="card">
+      <h2>Projects</h2>
+      <div class='project'><h3>Foodhub</h3><p>Simple food ordering website with menus, cart, and checkout. Built with HTML, CSS, JavaScript and PHP/MySQL.</p><a href='#' target='_blank' rel='noreferrer'>View →</a></div><div class='project'><h3>Alert & Notification System</h3><p>System to trigger and deliver alerts for important events; supports email/SMS style notifications and dashboard logs.</p><a href='#' target='_blank' rel='noreferrer'>View →</a></div><div class='project'><h3>WhatsApp Web Clone</h3><p>Chat UI inspired by WhatsApp Web with real‑time messaging (WebSocket) and contact list.</p><a href='#' target='_blank' rel='noreferrer'>View →</a></div><div class='project'><h3>Online Quiz System (Database)</h3><p>Database‑driven quiz app for creating questions, taking quizzes, and auto‑grading results.</p><a href='#' target='_blank' rel='noreferrer'>View →</a></div>
+    </section>
+
+    <section id="contact" class="card contact">
+      <h2>Contact</h2>
+      <p>Email or message me — I'm open to internships, junior roles, and collaborations.</p>
+      <form action="https://formspree.io/f/your-id" method="POST">
+        <label>Name <input name="name" required></label>
+        <label>Email <input type="email" name="email" required></label>
+        <label>Message <textarea name="message" rows="5" required></textarea></label>
+        <input type="hidden" name="_subject" value="Portfolio contact for MD MAHABUB HASAN MAHIN" />
+        <button type="submit" class="cta">Send</button>
+      </form>
+      <p style="margin-top:8px"><a href="mailto:mdmahabubhasanmahin31@gmail.com">mdmahabubhasanmahin31@gmail.com</a> · <a href="tel:+8801722294727">+8801722294727</a></p>
+    </section>
+
+    <footer>© <span id="year"></span> MD MAHABUB HASAN MAHIN</footer>
+  </div>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
